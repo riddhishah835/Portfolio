@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    
+       background-color: white;
+      color: rgb(2, 20, 36);
+      margin: 0;
+      padding: 0;
+      font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .container{
+background-color: #2f4354;
+padding :10px;
+display:flex;
+justify-content: center;
+flex-wrap:wrap;
+gap:20px;
+width:80%;
+margin:30px auto;
+border-radius: 20px;
+box-shadow: 10px 10px 5px 5px #136da4a8 ;
+
+
+    }
+    .box{
+        height: 200px;
+        width:200px; 
+      background-color: #688aa5;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:#F1E9DF;
+        font-size: 30px;
+        font-weight: bold;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+       text-align: center;
+        transition: all 0.5s ease;
+        box-shadow: inset 0 0 40px #b8d7e9cf;
+        text-shadow: 0 0 10px #438bbf,
+        0 0 10px #3180b8,
+        0 0 10px #2d88c8,
+        0 0 10px #458ec2; 
+
+        cursor:pointer;
+     
+    }
+   
+    .box:hover{
+         height:400px;
+            width:400px;
+           text-align: center;
+            font-size: 70px;
+            justify-content: center;
+            align-items: center;
+             box-shadow: 0 0 40px #b8d7e9cf;
+
+
+color: aliceblue;
+  text-shadow: 
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff,
+        0 0 80px #0ff;
+background-color: #082940;
+border-radius: 20px;
+z-index: 1;
+
+
+    }
+ h3{
+        font-size: 40px;
+        color: #9A8F84;
+       text-shadow: 
+     0 0 5px #9A8F84,
+    0 0 10px #e9e2db,
+    0 0 20px #9A8F84,
+    0 0 40px #f2e9e0,
+    0 0 60px #9A8F84,
+    0 0 80px #9A8F84;
+        text-align: center;
+        margin: 20px 0 10px;
+      
+    }
+    h1{ font-family: Helvetica, Arial, sans-serif;;
+    font-size: 48px;
+    
+     margin:auto;
+        font-weight: bold;
+        white-space: nowrap;
+        max-width:0;
+         overflow: hidden;  
+         display:block;
+       color: #123a56;
+        text-shadow: 0 0 10px rgb(197, 208, 225),
+        0 0 10px rgb(135, 178, 232),
+        0 0 10px rgb(220, 241, 241),
+        0 0 10px rgb(138, 221, 221);
+        animation: typing 4s steps(200) forwards;
+
+        }
+    @keyframes typing {
+    from { max-width: 0; }
+    to { max-width: 10ch;  }
+
+    }
+
+    .box-link {
+      text-decoration: none;
+      color: inherit;
+    }
+  a{
+        text-decoration: none;
+    }
+ header nav{
+            text-align: right;
+            font-size: 20px;
+            padding: 20px 50px;
+            background-color: #9a8f84;
+            
+ }
+        header nav a{
+            text-decoration: none;
+            color: #0b1d3a;
+            margin-left: 30px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        header nav a:hover{
+            color:#FCFBF9 ; 
+        }
+
+</style>
+
+<body style="background-color:#FCFBF9; color:rgb(2, 20, 36)">
+    <header>
+
+        <nav>
+       <a href="#">   Home</a>
+        <a href="#">   About</a>
+         <a href="#">    Projects</a>
+          <a href="#">    Contact</a>
+        </nav>
+    </header>
+    <main>
+    <h1>PROJECTS</h1>
+    
+
+       <h3> Creatives</h3> 
+    <div class="container">
+    
+        <a href="https://www.amazon.in/When-flower-gets-its-wings/dp/9370928316/ref=sr_1_1?crid=3S4C7YJ4EMSLF&dib=eyJ2IjoiMSJ9.leQezdIMs09HO21kETtuuw.CsXjZoZZm8uGft6yaFfyFqu8hygrzu_YUIrpn8u7lm0&dib_tag=se&keywords=when+a+flower+gets+its+wings&qid=1759396908&sprefix=when+a+flower+gets+its+wings%2Caps%2C239&sr=8-1" target="_blank" class="box-link">
+        <div class="box art">Art</div></a>
+        <a href="#" class="box-link">
+        <div class="box lit">Literature</div></a>
+        
+    </div>
+    <h3 > Webpages</h3>
+    <div class="container">
+       
+        <a href="#" class="box-link">
+        <div class=" box box1">Animations</div>
+        </a>
+        <a href="#" class="box-link">
+        <div class="box box1">Activity Pages</div></a>
+    </div>
+     <h3> Tech projects</h3>
+    <div class="container">
+        
+      
+        <a href="#" class="box-link">
+        <div class=" box box3">SIH </div></a>
+
+    </div>
+    </main>
+
+</body>
+</html>
